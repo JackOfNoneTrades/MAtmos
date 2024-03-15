@@ -16,7 +16,7 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath 'net.minecraftforge.gradle:ForgeGradle:' + project.forgeGradleVersion
+		classpath 'com.anatawa12.forge:ForgeGradle:' + project.forgeGradleVersion
 		classpath 'org.spongepowered:mixingradle:' + project.mixinGradleVersion
 	}
 }
