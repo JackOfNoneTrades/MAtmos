@@ -1,6 +1,4 @@
-cleanProject () {
-	[ ! -d build/libs ] || rm -f build/libs/*
-}
+#!/usr/bin/env sh
+set -eu
 
-( cd projects/1.7 && cleanProject && ./gradlew build && ./gradlew build -Ptarget=forge-nomixin)
-( cd projects/1.12 && cleanProject && ./gradlew build && ./gradlew build -Ptarget=forge-nomixin )
+./gradlew clean build

@@ -1,0 +1,15 @@
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Minecraft Forge"
+                url = "https://maven.minecraftforge.net/releases"
+            }
+        }
+        filter { includeVersion("com.paulscode", "soundsystem", "201809301515") }
+    }
+    maven {
+        name = "Fent Maven"
+        url "https://maven.fentanylsolutions.org/releases"
+    }
+}

@@ -1,3 +1,5 @@
+> This repository is a fork of [makamys/MAtmos](https://github.com/makamys/MAtmos).
+
 [![downloads](https://img.shields.io/badge/-⬇%20releases-brightgreen)](https://github.com/makamys/MAtmos/releases)
 [![builds](https://img.shields.io/badge/-🛈%20builds-blue)](https://makamys.github.io/docs/CI-Downloads/CI-Downloads.html)
 [![CurseForge](https://shields.io/badge/CurseForge-555555?logo=curseforge)](https://legacy.curseforge.com/minecraft/mc-mods/matmos)

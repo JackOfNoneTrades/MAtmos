@@ -72,7 +72,7 @@ public class Matmos extends HaddonImpl implements SupportsFrameEvents, SupportsC
 
     // Identity
     protected static final String NAME = "MAtmos";
-    protected static final String VERSION = "@VERSION@";
+    protected static final String VERSION = Tags.VERSION;
     protected static final String FOR = MinecraftForge.MC_VERSION;
     protected static final String ADDRESS = "https://github.com/makamys/MAtmos";
     protected static final String UPDATE_JSON = "https://raw.githubusercontent.com/makamys/MAtmos/master/updatejson/update-matmos.json";
@@ -81,8 +81,7 @@ public class Matmos extends HaddonImpl implements SupportsFrameEvents, SupportsC
     // NotifiableHaddon and UpdateNotifier
     private final ConfigProperty config = ConfigManager.getConfig();
     private final Chatter chatter = new Chatter(this, "<MAtmos> ");
-    private final UpdateNotifier updateNotifier = new UpdateNotifier(this, new HaddonVersion(FOR + "-" + VERSION),
-            UPDATE_JSON);
+    private final UpdateNotifier updateNotifier = new UpdateNotifier(this, HaddonVersion.NO_VERSION);
     private final LoopingStreamedSoundManager soundManager = new LoopingStreamedSoundManager();
 
     // State

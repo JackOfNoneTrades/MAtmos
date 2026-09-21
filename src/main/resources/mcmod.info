@@ -1,0 +1,14 @@
+[
+{
+  "modid": "${modId}",
+  "name": "${modName}",
+  "description": "A sound atmosphere generator for Minecraft.",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
+  "url": "https://github.com/JackOfNoneTrades/MAtmos",
+  "authorList": ["Hurricaaane (Ha3)", "Dag_", "Sollace", "makamys"],
+  "credits": "Originally created by Hurricaaane and maintained by the MAtmos community.",
+  "logoFile": "assets/matmos/icon.png",
+  "clientSideOnly": true
+}
+]
