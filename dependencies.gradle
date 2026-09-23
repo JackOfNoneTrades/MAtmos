@@ -51,4 +51,7 @@ dependencies {
     // Pure compile
 
     // Test
+    runtimeOnlyNonPublishable(rfg.deobf("curse.maven:mutant-creatures-mod-59203:2250071")) // 1.4.9
+    runtimeOnlyNonPublishable(rfg.deobf("curse.maven:animationapi-77191:2221721")) // 1.2.4
+
 }
